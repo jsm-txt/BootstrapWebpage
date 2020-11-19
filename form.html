@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+    <title>WebPage</title>
+  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://bootswatch.com/4/cyborg/bootstrap.min.css">
+</head>
+<body style="background-color: whitesmoke; color: black;">
+    
+    <section>
+        <div class="jumbotron bg-white m-5">
+            <h1 class="display-4" style="color: black"> Hello, Reader!</h1>
+            <p class="lead">Subscribe to join our community</p>
+            <hr class="my-4">
+            <p>All the information you can get all at no cost to you!</p>
+            <a class="btn btn-primary btn-lg" href="index.html" role="button">Return to main page</a>
+        </div>
+    </section>
+
+    
+    <section>
+        <div class="container">
+            <form class="m-5 p-5">
+                <div class="form-group row">
+                  <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="inputEmail3">
+                    </div>
+                </div>
+                <div class="form-group row">
+                  <label for="inputPassword3" class="col-sm-2 col-form-label">Your Name</label>
+                  <div class="col-sm-10">
+                    <input type="Name" class="form-control" id="inputName">
+                  </div>
+                </div>
+                <fieldset class="form-group">
+                  <div class="row">
+                    <legend class="col-form-label col-sm-2 pt-0" style="color: black">Pick one!</legend>
+                    <div class="col-sm-10">
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="newsletter" id="newsletter" value="option1">
+                        <label class="form-check-label" for="newsletter">
+                          Click to recieve only the newsletter
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="newsletter" id="advertisments" value="option2">
+                        <label class="form-check-label" for="newsletter">
+                          Click to recieve newsletter and advertisments
+                        </label>
+                       </div>
+                    </div>
+                  </div>
+                </fieldset>
+                <div class="form-group row">
+                  <div class="col-sm-2">Agree to reading the terms and conditions</div>
+                  <div class="col-sm-10">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="check">
+                      <label class="form-check-label" for="check">
+                        I have not read the terms and conditions but I'm going to lie and say I did
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <div class="col-sm-10">
+                    <button type="submit" class="btn btn-primary">Subscribe Now</button>
+                  </div>
+                </div>
+              </form>
+        </div>
+    </section>
+
+
+</body>
